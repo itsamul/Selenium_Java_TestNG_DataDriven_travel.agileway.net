@@ -1,0 +1,238 @@
+2023-09-10 01:01:12 INFO  BaseTest:215 - File loaded : log4j.properties
+2023-09-10 01:01:12 INFO  BaseTest:227 - File loaded : OR.properties
+2023-09-10 01:01:12 INFO  BaseTest:244 - File loaded : config.properties
+2023-09-10 01:01:16 INFO  BaseTest:254 - chrome browser launched.
+2023-09-10 01:01:19 INFO  BaseTest:268 - Navigated to : https://travel.agileway.net/login
+2023-09-10 01:01:20 INFO  BaseTest:15 - testVerifyingRegisterPage test case started
+2023-09-10 01:01:21 INFO  BaseTest:53 - Element clicked : register_btn_common_LINKTEXT
+2023-09-10 01:01:21 INFO  BaseTest:142 - Element present : header_lbl_registerPage_XPATH
+2023-09-10 01:01:21 INFO  BaseTest:172 - Element Found : header_lbl_registerPage_XPATH | Element Text : Heading New Staff
+2023-09-10 01:01:21 INFO  BaseTest:23 - testVerifyingRegisterPage test case passed.
+2023-09-10 01:01:21 INFO  BaseTest:15 - testVerifyingLoginPage test case started
+2023-09-10 01:01:22 INFO  BaseTest:53 - Element clicked : login_btn_common_LINKTEXT
+2023-09-10 01:01:22 INFO  BaseTest:142 - Element present : header_lbl_loginPage_XPATH
+2023-09-10 01:01:22 INFO  BaseTest:172 - Element Found : header_lbl_loginPage_XPATH | Element Text : Agile Travel
+2023-09-10 01:01:22 INFO  BaseTest:23 - testVerifyingLoginPage test case passed.
+2023-09-10 01:01:22 INFO  BaseTest:15 - testInvalidLogin test case started
+2023-09-10 01:01:22 INFO  BaseTest:83 - Element found : username_tbx_loginPage_ID | value typed in the element : 
+2023-09-10 01:01:23 INFO  BaseTest:83 - Element found : password_tbx_loginPage_ID | value typed in the element : testwise
+2023-09-10 01:01:23 INFO  BaseTest:53 - Element clicked : signIn_btn_loginPage_XPATH
+2023-09-10 01:01:24 INFO  BaseTest:142 - Element present : alert_lbl_loginPage_ID
+2023-09-10 01:01:24 INFO  BaseTest:172 - Element Found : alert_lbl_loginPage_ID | Element Text : Invalid email or password
+2023-09-10 01:01:24 INFO  BaseTest:23 - testInvalidLogin test case passed.
+2023-09-10 01:01:24 INFO  BaseTest:15 - testInvalidLogin test case started
+2023-09-10 01:01:24 INFO  BaseTest:83 - Element found : username_tbx_loginPage_ID | value typed in the element : agileway
+2023-09-10 01:01:24 INFO  BaseTest:83 - Element found : password_tbx_loginPage_ID | value typed in the element : 
+2023-09-10 01:01:25 INFO  BaseTest:53 - Element clicked : signIn_btn_loginPage_XPATH
+2023-09-10 01:01:25 INFO  BaseTest:142 - Element present : alert_lbl_loginPage_ID
+2023-09-10 01:01:25 INFO  BaseTest:172 - Element Found : alert_lbl_loginPage_ID | Element Text : Invalid email or password
+2023-09-10 01:01:25 INFO  BaseTest:23 - testInvalidLogin test case passed.
+2023-09-10 01:01:25 INFO  BaseTest:15 - testValidLogin test case started
+2023-09-10 01:01:26 INFO  BaseTest:83 - Element found : username_tbx_loginPage_ID | value typed in the element : agileway
+2023-09-10 01:01:26 INFO  BaseTest:83 - Element found : password_tbx_loginPage_ID | value typed in the element : testwise
+2023-09-10 01:01:28 INFO  BaseTest:53 - Element clicked : signIn_btn_loginPage_XPATH
+2023-09-10 01:01:28 INFO  BaseTest:142 - Element present : message_lbl_selectPage_ID
+2023-09-10 01:01:28 INFO  BaseTest:172 - Element Found : message_lbl_selectPage_ID | Element Text : Signed in!
+2023-09-10 01:01:28 INFO  BaseTest:23 - testValidLogin test case passed.
+2023-09-10 01:01:28 INFO  BaseTest:15 - testVerifyingOnSelectFlightPage test case started
+2023-09-10 01:01:28 INFO  BaseTest:142 - Element present : header_lbl_selectPage_XPATH
+2023-09-10 01:01:28 INFO  BaseTest:172 - Element Found : header_lbl_selectPage_XPATH | Element Text : Select Flight
+2023-09-10 01:01:28 INFO  BaseTest:23 - testVerifyingOnSelectFlightPage test case passed.
+2023-09-10 01:01:28 INFO  BaseTest:15 - testVerifyingUsername test case started
+2023-09-10 01:01:28 INFO  BaseTest:142 - Element present : username_lbl_SelectFlightPage_XPATH
+2023-09-10 01:01:28 INFO  BaseTest:172 - Element Found : username_lbl_SelectFlightPage_XPATH | Element Text : agileway
+2023-09-10 01:01:28 INFO  BaseTest:23 - testVerifyingUsername test case passed.
+2023-09-10 01:01:28 INFO  BaseTest:15 - testSelectingOneWayFlight test case started
+2023-09-10 01:01:29 INFO  BaseTest:53 - Element clicked : oneWayTrip_rad_SelectFlightPage_XPATH
+2023-09-10 01:01:29 INFO  BaseTest:114 - Element found : from_drp_SelectFlightPage_XPATH | Value selected in the element : New York
+2023-09-10 01:01:29 INFO  BaseTest:114 - Element found : to_drp_SelectFlightPage_XPATH | Value selected in the element : Sydney
+2023-09-10 01:01:29 INFO  BaseTest:114 - Element found : departDay_drp_SelectFlightPage_ID | Value selected in the element : 20
+2023-09-10 01:01:29 INFO  BaseTest:114 - Element found : departMonth_drp_SelectFlightPage_ID | Value selected in the element : September 2023
+2023-09-10 01:01:29 INFO  BaseTest:179 - Clicked on an flight number : VA23
+2023-09-10 01:01:31 INFO  BaseTest:53 - Element clicked : continue_btn_SelectFlightPage_XPATH
+2023-09-10 01:01:31 INFO  BaseTest:142 - Element present : header_lbl_passengerDetailsPage_XPATH
+2023-09-10 01:01:31 INFO  BaseTest:172 - Element Found : header_lbl_passengerDetailsPage_XPATH | Element Text : Passenger Details
+2023-09-10 01:01:31 INFO  BaseTest:23 - testSelectingOneWayFlight test case passed.
+2023-09-10 01:01:31 INFO  BaseTest:15 - testVerifyingTripDetails test case started
+2023-09-10 01:01:32 INFO  BaseTest:172 - Element Found : flightDetails_lbl_passengerDetailsPage_XPATH | Element Text : Flights (oneway trip)
+  2023-09-20 New York to Sydney
+2023-09-10 01:01:32 INFO  BaseTest:172 - Element Found : flightDetails_lbl_passengerDetailsPage_XPATH | Element Text : Flights (oneway trip)
+  2023-09-20 New York to Sydney
+2023-09-10 01:01:32 INFO  BaseTest:172 - Element Found : flightDetails_lbl_passengerDetailsPage_XPATH | Element Text : Flights (oneway trip)
+  2023-09-20 New York to Sydney
+2023-09-10 01:01:32 INFO  BaseTest:172 - Element Found : flightDetails_lbl_passengerDetailsPage_XPATH | Element Text : Flights (oneway trip)
+  2023-09-20 New York to Sydney
+2023-09-10 01:01:32 INFO  BaseTest:23 - testVerifyingTripDetails test case passed.
+2023-09-10 01:01:32 INFO  BaseTest:15 - testWithoutPassengerInput test case started
+2023-09-10 01:01:32 INFO  BaseTest:83 - Element found : firstName_tbx_passengerDetailsPage_XPATH | value typed in the element : 
+2023-09-10 01:01:32 INFO  BaseTest:83 - Element found : lastName_tbx_passengerDetailsPage_XPATH | value typed in the element : 
+2023-09-10 01:01:34 INFO  BaseTest:53 - Element clicked : next_btn_passengerDetailsPage_XPATH
+2023-09-10 01:01:34 INFO  BaseTest:142 - Element present : alert_lbl_passengerDetailsPage_ID
+2023-09-10 01:01:34 INFO  BaseTest:172 - Element Found : alert_lbl_passengerDetailsPage_ID | Element Text : Must provide last name
+2023-09-10 01:01:34 INFO  BaseTest:23 - testWithoutPassengerInput test case passed.
+2023-09-10 01:01:34 INFO  BaseTest:15 - testWithoutPassengerInput test case started
+2023-09-10 01:01:34 INFO  BaseTest:83 - Element found : firstName_tbx_passengerDetailsPage_XPATH | value typed in the element : John
+2023-09-10 01:01:34 INFO  BaseTest:83 - Element found : lastName_tbx_passengerDetailsPage_XPATH | value typed in the element : 
+2023-09-10 01:01:36 INFO  BaseTest:53 - Element clicked : next_btn_passengerDetailsPage_XPATH
+2023-09-10 01:01:36 INFO  BaseTest:142 - Element present : alert_lbl_passengerDetailsPage_ID
+2023-09-10 01:01:36 INFO  BaseTest:172 - Element Found : alert_lbl_passengerDetailsPage_ID | Element Text : Must provide last name
+2023-09-10 01:01:36 INFO  BaseTest:23 - testWithoutPassengerInput test case passed.
+2023-09-10 01:01:36 INFO  BaseTest:15 - testWithPassengerInput test case started
+2023-09-10 01:01:36 INFO  BaseTest:83 - Element found : firstName_tbx_passengerDetailsPage_XPATH | value typed in the element : John
+2023-09-10 01:01:36 INFO  BaseTest:83 - Element found : lastName_tbx_passengerDetailsPage_XPATH | value typed in the element : Doe
+2023-09-10 01:01:37 INFO  BaseTest:53 - Element clicked : next_btn_passengerDetailsPage_XPATH
+2023-09-10 01:01:37 INFO  BaseTest:142 - Element present : header_lbl_cardPage_XPATH
+2023-09-10 01:01:37 INFO  BaseTest:172 - Element Found : header_lbl_cardPage_XPATH | Element Text : Pay by Credit Card
+2023-09-10 01:01:37 INFO  BaseTest:23 - testWithPassengerInput test case passed.
+2023-09-10 01:01:37 INFO  BaseTest:15 - testVerifyingTripFareDetails test case started
+2023-09-10 01:01:37 INFO  BaseTest:172 - Element Found : flightDetails_lbl_passengerDetailsPage_XPATH | Element Text : Fare (oneway New York to Sydney): $959.00
+2023-09-10 01:01:37 INFO  BaseTest:172 - Element Found : flightDetails_lbl_passengerDetailsPage_XPATH | Element Text : Fare (oneway New York to Sydney): $959.00
+2023-09-10 01:01:37 INFO  BaseTest:23 - testVerifyingTripFareDetails test case passed.
+2023-09-10 01:01:37 INFO  BaseTest:15 - testVerifyingPayment test case started
+2023-09-10 01:01:38 INFO  BaseTest:53 - Element clicked : visa_radio_cardPage_XPATH
+2023-09-10 01:01:38 INFO  BaseTest:83 - Element found : cardNumber_tbx_cardPage_XPATH | value typed in the element : 8564759823647590
+2023-09-10 01:01:38 INFO  BaseTest:114 - Element found : day_drp_cardPage_XPATH | Value selected in the element : 12
+2023-09-10 01:01:38 INFO  BaseTest:114 - Element found : year_drp_cardPage_XPATH | Value selected in the element : 2023
+2023-09-10 01:01:38 INFO  BaseTest:53 - Element clicked : payNow_btn_cardPage_XPATH
+2023-09-10 01:01:43 INFO  BaseTest:142 - Element present : confirmation_lbl_cardPage_XPATH
+2023-09-10 01:01:43 INFO  BaseTest:172 - Element Found : confirmation_lbl_cardPage_XPATH | Element Text : Confirmation
+2023-09-10 01:01:43 INFO  BaseTest:23 - testVerifyingPayment test case passed.
+2023-09-10 01:01:43 INFO  BaseTest:15 - testBookedDetails test case started
+2023-09-10 01:01:43 INFO  BaseTest:142 - Element present : flight_lbl_cardPage_XPATH
+2023-09-10 01:01:43 INFO  BaseTest:172 - Element Found : flight_lbl_cardPage_XPATH | Element Text : Flights (oneway Trip)
+  2023-09-20 New York to Sydney
+2023-09-10 01:01:43 INFO  BaseTest:142 - Element present : flight_lbl_cardPage_XPATH
+2023-09-10 01:01:43 INFO  BaseTest:172 - Element Found : flight_lbl_cardPage_XPATH | Element Text : Flights (oneway Trip)
+  2023-09-20 New York to Sydney
+2023-09-10 01:01:43 INFO  BaseTest:142 - Element present : passenger_lbl_cardPage_XPATH
+2023-09-10 01:01:43 INFO  BaseTest:172 - Element Found : passenger_lbl_cardPage_XPATH | Element Text : Passenger Details: John Doe
+2023-09-10 01:01:43 INFO  BaseTest:23 - testBookedDetails test case passed.
+2023-09-10 01:01:43 INFO  BaseTest:15 - testLogOff test case started
+2023-09-10 01:01:43 INFO  BaseTest:142 - Element present : signoff_lnk_cardPage_LINKTEXT
+2023-09-10 01:01:43 INFO  BaseTest:172 - Element Found : signoff_lnk_cardPage_LINKTEXT | Element Text : Sign off
+2023-09-10 01:01:44 INFO  BaseTest:53 - Element clicked : signoff_lnk_cardPage_LINKTEXT
+2023-09-10 01:01:45 INFO  BaseTest:142 - Element present : message_lbl_loginPage_ID
+2023-09-10 01:01:45 INFO  BaseTest:172 - Element Found : message_lbl_loginPage_ID | Element Text : Signed out!
+2023-09-10 01:01:45 INFO  BaseTest:142 - Element present : header_lbl_loginPage_XPATH
+2023-09-10 01:01:45 INFO  BaseTest:172 - Element Found : header_lbl_loginPage_XPATH | Element Text : Agile Travel
+2023-09-10 01:01:45 INFO  BaseTest:23 - testLogOff test case passed.
+2023-09-10 01:01:45 INFO  BaseTest:277 - Test execution completed.
+2023-09-10 01:04:40 INFO  BaseTest:215 - File loaded : log4j.properties
+2023-09-10 01:04:40 INFO  BaseTest:227 - File loaded : OR.properties
+2023-09-10 01:04:40 INFO  BaseTest:244 - File loaded : config.properties
+2023-09-10 01:04:43 INFO  BaseTest:254 - chrome browser launched.
+2023-09-10 01:04:47 INFO  BaseTest:268 - Navigated to : https://travel.agileway.net/login
+2023-09-10 01:04:47 INFO  BaseTest:15 - testVerifyingRegisterPage test case started
+2023-09-10 01:04:48 INFO  BaseTest:53 - Element clicked : register_btn_common_LINKTEXT
+2023-09-10 01:04:48 INFO  BaseTest:142 - Element present : header_lbl_registerPage_XPATH
+2023-09-10 01:04:49 INFO  BaseTest:172 - Element Found : header_lbl_registerPage_XPATH | Element Text : Heading New Staff
+2023-09-10 01:04:49 INFO  BaseTest:23 - testVerifyingRegisterPage test case passed.
+2023-09-10 01:04:49 INFO  BaseTest:15 - testVerifyingLoginPage test case started
+2023-09-10 01:04:49 INFO  BaseTest:53 - Element clicked : login_btn_common_LINKTEXT
+2023-09-10 01:04:50 INFO  BaseTest:142 - Element present : header_lbl_loginPage_XPATH
+2023-09-10 01:04:50 INFO  BaseTest:172 - Element Found : header_lbl_loginPage_XPATH | Element Text : Agile Travel
+2023-09-10 01:04:50 INFO  BaseTest:23 - testVerifyingLoginPage test case passed.
+2023-09-10 01:04:50 INFO  BaseTest:15 - testInvalidLogin test case started
+2023-09-10 01:04:50 INFO  BaseTest:83 - Element found : username_tbx_loginPage_ID | value typed in the element : 
+2023-09-10 01:04:50 INFO  BaseTest:83 - Element found : password_tbx_loginPage_ID | value typed in the element : testwise
+2023-09-10 01:04:51 INFO  BaseTest:53 - Element clicked : signIn_btn_loginPage_XPATH
+2023-09-10 01:04:51 INFO  BaseTest:142 - Element present : alert_lbl_loginPage_ID
+2023-09-10 01:04:51 INFO  BaseTest:172 - Element Found : alert_lbl_loginPage_ID | Element Text : Invalid email or password
+2023-09-10 01:04:51 INFO  BaseTest:23 - testInvalidLogin test case passed.
+2023-09-10 01:04:51 INFO  BaseTest:15 - testInvalidLogin test case started
+2023-09-10 01:04:51 INFO  BaseTest:83 - Element found : username_tbx_loginPage_ID | value typed in the element : agileway
+2023-09-10 01:04:52 INFO  BaseTest:83 - Element found : password_tbx_loginPage_ID | value typed in the element : 
+2023-09-10 01:04:53 INFO  BaseTest:53 - Element clicked : signIn_btn_loginPage_XPATH
+2023-09-10 01:04:53 INFO  BaseTest:142 - Element present : alert_lbl_loginPage_ID
+2023-09-10 01:04:53 INFO  BaseTest:172 - Element Found : alert_lbl_loginPage_ID | Element Text : Invalid email or password
+2023-09-10 01:04:53 INFO  BaseTest:23 - testInvalidLogin test case passed.
+2023-09-10 01:04:53 INFO  BaseTest:15 - testValidLogin test case started
+2023-09-10 01:04:53 INFO  BaseTest:83 - Element found : username_tbx_loginPage_ID | value typed in the element : agileway
+2023-09-10 01:04:53 INFO  BaseTest:83 - Element found : password_tbx_loginPage_ID | value typed in the element : testwise
+2023-09-10 01:04:55 INFO  BaseTest:53 - Element clicked : signIn_btn_loginPage_XPATH
+2023-09-10 01:04:55 INFO  BaseTest:142 - Element present : message_lbl_selectPage_ID
+2023-09-10 01:04:55 INFO  BaseTest:172 - Element Found : message_lbl_selectPage_ID | Element Text : Signed in!
+2023-09-10 01:04:55 INFO  BaseTest:23 - testValidLogin test case passed.
+2023-09-10 01:04:55 INFO  BaseTest:15 - testVerifyingOnSelectFlightPage test case started
+2023-09-10 01:04:55 INFO  BaseTest:142 - Element present : header_lbl_selectPage_XPATH
+2023-09-10 01:04:55 INFO  BaseTest:172 - Element Found : header_lbl_selectPage_XPATH | Element Text : Select Flight
+2023-09-10 01:04:55 INFO  BaseTest:23 - testVerifyingOnSelectFlightPage test case passed.
+2023-09-10 01:04:55 INFO  BaseTest:15 - testVerifyingUsername test case started
+2023-09-10 01:04:55 INFO  BaseTest:142 - Element present : username_lbl_SelectFlightPage_XPATH
+2023-09-10 01:04:55 INFO  BaseTest:172 - Element Found : username_lbl_SelectFlightPage_XPATH | Element Text : agileway
+2023-09-10 01:04:55 INFO  BaseTest:23 - testVerifyingUsername test case passed.
+2023-09-10 01:04:55 INFO  BaseTest:15 - testSelectingOneWayFlight test case started
+2023-09-10 01:04:56 INFO  BaseTest:53 - Element clicked : oneWayTrip_rad_SelectFlightPage_XPATH
+2023-09-10 01:04:56 INFO  BaseTest:114 - Element found : from_drp_SelectFlightPage_XPATH | Value selected in the element : New York
+2023-09-10 01:04:56 INFO  BaseTest:114 - Element found : to_drp_SelectFlightPage_XPATH | Value selected in the element : Sydney
+2023-09-10 01:04:56 INFO  BaseTest:114 - Element found : departDay_drp_SelectFlightPage_ID | Value selected in the element : 20
+2023-09-10 01:04:56 INFO  BaseTest:114 - Element found : departMonth_drp_SelectFlightPage_ID | Value selected in the element : September 2023
+2023-09-10 01:04:56 INFO  BaseTest:179 - Clicked on an flight number : VA23
+2023-09-10 01:04:57 INFO  BaseTest:53 - Element clicked : continue_btn_SelectFlightPage_XPATH
+2023-09-10 01:04:57 INFO  BaseTest:142 - Element present : header_lbl_passengerDetailsPage_XPATH
+2023-09-10 01:04:57 INFO  BaseTest:172 - Element Found : header_lbl_passengerDetailsPage_XPATH | Element Text : Passenger Details
+2023-09-10 01:04:57 INFO  BaseTest:23 - testSelectingOneWayFlight test case passed.
+2023-09-10 01:04:57 INFO  BaseTest:15 - testVerifyingTripDetails test case started
+2023-09-10 01:04:57 INFO  BaseTest:172 - Element Found : flightDetails_lbl_passengerDetailsPage_XPATH | Element Text : Flights (oneway trip)
+  2023-09-20 New York to Sydney
+2023-09-10 01:04:57 INFO  BaseTest:172 - Element Found : flightDetails_lbl_passengerDetailsPage_XPATH | Element Text : Flights (oneway trip)
+  2023-09-20 New York to Sydney
+2023-09-10 01:04:58 INFO  BaseTest:172 - Element Found : flightDetails_lbl_passengerDetailsPage_XPATH | Element Text : Flights (oneway trip)
+  2023-09-20 New York to Sydney
+2023-09-10 01:04:58 INFO  BaseTest:172 - Element Found : flightDetails_lbl_passengerDetailsPage_XPATH | Element Text : Flights (oneway trip)
+  2023-09-20 New York to Sydney
+2023-09-10 01:04:58 INFO  BaseTest:23 - testVerifyingTripDetails test case passed.
+2023-09-10 01:04:58 INFO  BaseTest:15 - testWithoutPassengerInput test case started
+2023-09-10 01:04:58 INFO  BaseTest:83 - Element found : firstName_tbx_passengerDetailsPage_XPATH | value typed in the element : 
+2023-09-10 01:04:58 INFO  BaseTest:83 - Element found : lastName_tbx_passengerDetailsPage_XPATH | value typed in the element : 
+2023-09-10 01:05:00 INFO  BaseTest:53 - Element clicked : next_btn_passengerDetailsPage_XPATH
+2023-09-10 01:05:00 INFO  BaseTest:142 - Element present : alert_lbl_passengerDetailsPage_ID
+2023-09-10 01:05:00 INFO  BaseTest:172 - Element Found : alert_lbl_passengerDetailsPage_ID | Element Text : Must provide last name
+2023-09-10 01:05:00 INFO  BaseTest:23 - testWithoutPassengerInput test case passed.
+2023-09-10 01:05:00 INFO  BaseTest:15 - testWithoutPassengerInput test case started
+2023-09-10 01:05:00 INFO  BaseTest:83 - Element found : firstName_tbx_passengerDetailsPage_XPATH | value typed in the element : John
+2023-09-10 01:05:01 INFO  BaseTest:83 - Element found : lastName_tbx_passengerDetailsPage_XPATH | value typed in the element : 
+2023-09-10 01:05:02 INFO  BaseTest:53 - Element clicked : next_btn_passengerDetailsPage_XPATH
+2023-09-10 01:05:02 INFO  BaseTest:142 - Element present : alert_lbl_passengerDetailsPage_ID
+2023-09-10 01:05:02 INFO  BaseTest:172 - Element Found : alert_lbl_passengerDetailsPage_ID | Element Text : Must provide last name
+2023-09-10 01:05:02 INFO  BaseTest:23 - testWithoutPassengerInput test case passed.
+2023-09-10 01:05:02 INFO  BaseTest:15 - testWithPassengerInput test case started
+2023-09-10 01:05:02 INFO  BaseTest:83 - Element found : firstName_tbx_passengerDetailsPage_XPATH | value typed in the element : John
+2023-09-10 01:05:03 INFO  BaseTest:83 - Element found : lastName_tbx_passengerDetailsPage_XPATH | value typed in the element : Doe
+2023-09-10 01:05:04 INFO  BaseTest:53 - Element clicked : next_btn_passengerDetailsPage_XPATH
+2023-09-10 01:05:04 INFO  BaseTest:142 - Element present : header_lbl_cardPage_XPATH
+2023-09-10 01:05:04 INFO  BaseTest:172 - Element Found : header_lbl_cardPage_XPATH | Element Text : Pay by Credit Card
+2023-09-10 01:05:04 INFO  BaseTest:23 - testWithPassengerInput test case passed.
+2023-09-10 01:05:04 INFO  BaseTest:15 - testVerifyingTripFareDetails test case started
+2023-09-10 01:05:04 INFO  BaseTest:172 - Element Found : flightDetails_lbl_passengerDetailsPage_XPATH | Element Text : Fare (oneway New York to Sydney): $959.00
+2023-09-10 01:05:04 INFO  BaseTest:172 - Element Found : flightDetails_lbl_passengerDetailsPage_XPATH | Element Text : Fare (oneway New York to Sydney): $959.00
+2023-09-10 01:05:04 INFO  BaseTest:23 - testVerifyingTripFareDetails test case passed.
+2023-09-10 01:05:04 INFO  BaseTest:15 - testVerifyingPayment test case started
+2023-09-10 01:05:04 INFO  BaseTest:53 - Element clicked : visa_radio_cardPage_XPATH
+2023-09-10 01:05:04 INFO  BaseTest:83 - Element found : cardNumber_tbx_cardPage_XPATH | value typed in the element : 8564759823647590
+2023-09-10 01:05:04 INFO  BaseTest:114 - Element found : day_drp_cardPage_XPATH | Value selected in the element : 12
+2023-09-10 01:05:04 INFO  BaseTest:114 - Element found : year_drp_cardPage_XPATH | Value selected in the element : 2023
+2023-09-10 01:05:04 INFO  BaseTest:53 - Element clicked : payNow_btn_cardPage_XPATH
+2023-09-10 01:05:06 INFO  BaseTest:142 - Element present : confirmation_lbl_cardPage_XPATH
+2023-09-10 01:05:06 INFO  BaseTest:172 - Element Found : confirmation_lbl_cardPage_XPATH | Element Text : Confirmation
+2023-09-10 01:05:06 INFO  BaseTest:23 - testVerifyingPayment test case passed.
+2023-09-10 01:05:06 INFO  BaseTest:15 - testBookedDetails test case started
+2023-09-10 01:05:06 INFO  BaseTest:142 - Element present : flight_lbl_cardPage_XPATH
+2023-09-10 01:05:06 INFO  BaseTest:172 - Element Found : flight_lbl_cardPage_XPATH | Element Text : Flights (oneway Trip)
+  2023-09-20 New York to Sydney
+2023-09-10 01:05:06 INFO  BaseTest:142 - Element present : flight_lbl_cardPage_XPATH
+2023-09-10 01:05:06 INFO  BaseTest:172 - Element Found : flight_lbl_cardPage_XPATH | Element Text : Flights (oneway Trip)
+  2023-09-20 New York to Sydney
+2023-09-10 01:05:06 INFO  BaseTest:142 - Element present : passenger_lbl_cardPage_XPATH
+2023-09-10 01:05:06 INFO  BaseTest:172 - Element Found : passenger_lbl_cardPage_XPATH | Element Text : Passenger Details: John Doe
+2023-09-10 01:05:06 INFO  BaseTest:23 - testBookedDetails test case passed.
+2023-09-10 01:05:06 INFO  BaseTest:15 - testLogOff test case started
+2023-09-10 01:05:06 INFO  BaseTest:142 - Element present : signoff_lnk_cardPage_LINKTEXT
+2023-09-10 01:05:06 INFO  BaseTest:172 - Element Found : signoff_lnk_cardPage_LINKTEXT | Element Text : Sign off
+2023-09-10 01:05:08 INFO  BaseTest:53 - Element clicked : signoff_lnk_cardPage_LINKTEXT
+2023-09-10 01:05:08 INFO  BaseTest:142 - Element present : message_lbl_loginPage_ID
+2023-09-10 01:05:08 INFO  BaseTest:172 - Element Found : message_lbl_loginPage_ID | Element Text : Signed out!
+2023-09-10 01:05:08 INFO  BaseTest:142 - Element present : header_lbl_loginPage_XPATH
+2023-09-10 01:05:08 INFO  BaseTest:172 - Element Found : header_lbl_loginPage_XPATH | Element Text : Agile Travel
+2023-09-10 01:05:08 INFO  BaseTest:23 - testLogOff test case passed.
+2023-09-10 01:05:09 INFO  BaseTest:277 - Test execution completed.
